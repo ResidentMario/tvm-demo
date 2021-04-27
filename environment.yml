@@ -1,0 +1,12 @@
+name: spell
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - xgboost
+  - tornado
+  - pip:
+     - torch
+     - cloudpickle
+     - psutil
